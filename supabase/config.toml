@@ -1,0 +1,4 @@
+project_id = "vbyovdhlyjrvtqrkdlzl"
+
+[functions.generate-wish]
+verify_jwt = false
