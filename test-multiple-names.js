@@ -1,6 +1,6 @@
 // Test multiple names to show OpenAI variety
 const testMultipleNames = async () => {
-  const names = ['Madhav', 'Sarah', 'David', 'Priya', 'Michael'];
+  const names = ['Abhilasha', 'Sarah', 'David', 'Priya', 'Michael'];
   const functionUrl = 'https://erdkwgoslgdmgxchsqtv.supabase.co/functions/v1/generate-wish';
 
   for (const name of names) {

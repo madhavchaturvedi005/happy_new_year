@@ -101,7 +101,7 @@ const createPhotoWithOverlay = (file: File, name: string): Promise<Blob> => {
       // From text
       ctx.fillStyle = "#d4a853";
       ctx.font = `italic ${size * 0.03}px 'Inter', sans-serif`;
-      ctx.fillText("With warm wishes from Madhav", size / 2, size * 0.94);
+      ctx.fillText("With warm wishes from Abhilasha", size / 2, size * 0.94);
 
       canvas.toBlob(
         (blob) => {
@@ -225,7 +225,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="absolute bottom-4 left-0 right-0 text-center text-sm text-muted-foreground z-10">
-        <p>Made with love by Madhav • New Year 2026</p>
+        <p>Made with love by Abhilasha • New Year 2026</p>
       </footer>
     </div>
   );

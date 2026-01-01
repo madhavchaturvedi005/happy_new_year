@@ -3,7 +3,7 @@ const testOpenAI = async () => {
   const functionUrl = 'https://erdkwgoslgdmgxchsqtv.supabase.co/functions/v1/generate-wish';
   
   const testData = {
-    name: 'Alexander', // A name with clear meaning
+    name: 'Abhilasha', // A name with clear meaning
     photoUrl: null
   };
 

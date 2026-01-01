@@ -144,7 +144,7 @@ const WishCard = ({ name, nameMeaning, personalizedWish, photoUrl, onReset }: Wi
               backgroundClip: "text",
               marginTop: "4px"
             }}>
-              Madhav
+              Abhilasha
             </p>
           </div>
         </div>

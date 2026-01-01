@@ -76,7 +76,7 @@ serve(async (req) => {
 Respond in this exact JSON format:
 {
   "name_meaning": "Explain the name's meaning and origin in 2-3 sentences.",
-  "personalized_wish": "Create a comprehensive New Year 2026 wish that includes:\n\n1. A warm greeting using the name\n2. Connection to the name's meaning\n3. Bullet points with specific wishes:\n\n• Career & Success: [specific wish]\n• Health & Wellness: [specific wish] \n• Relationships & Love: [specific wish]\n• Personal Growth: [specific wish]\n• Dreams & Adventures: [specific wish]\n\n4. End with 'With warm wishes, Madhav'"
+  "personalized_wish": "Create a comprehensive New Year 2026 wish that includes:\n\n1. A warm greeting using the name\n2. Connection to the name's meaning\n3. Bullet points with specific wishes:\n\n• Career & Success: [specific wish]\n• Health & Wellness: [specific wish] \n• Relationships & Love: [specific wish]\n• Personal Growth: [specific wish]\n• Dreams & Adventures: [specific wish]\n\n4. End with 'With warm wishes, Abhilasha'"
 }
 
 Make the wish detailed and meaningful (300+ words). Use \\n for line breaks.`
@@ -215,7 +215,7 @@ As we welcome 2026, here are my special wishes for you:
 • Personal Growth: May you discover new strengths within yourself, embrace challenges as opportunities, and continue evolving into the amazing person you're meant to be
 • Dreams & Adventures: May 2026 bring you exciting adventures, the courage to chase your biggest dreams, and the satisfaction of turning your aspirations into reality
 
-Here's to making 2026 your most incredible year yet, filled with love, laughter, and endless possibilities! With warm wishes, Madhav`,
+Here's to making 2026 your most incredible year yet, filled with love, laughter, and endless possibilities! With warm wishes, Abhilasha`,
 
     `Dear ${name}, there's something truly special about your name and the person you are. As we welcome 2026, I want you to know that you have the power to make this year absolutely extraordinary, and I believe in all the wonderful things that await you.
 
@@ -227,7 +227,7 @@ As we welcome 2026, here are my special wishes for you:
 • Personal Growth: May you embrace new learning opportunities, develop your talents further, and become even more confident in your abilities
 • Dreams & Adventures: May you have the courage to take bold steps toward your goals and experience adventures that create lifelong memories
 
-Wishing you a year of growth, happiness, and boundless joy in everything you do! With warm wishes, Madhav`,
+Wishing you a year of growth, happiness, and boundless joy in everything you do! With warm wishes, Abhilasha`,
 
     `Dear ${name}, your name represents so much beauty and potential, just like the person you are. As we enter 2026, I'm filled with excitement thinking about all the wonderful experiences and achievements that await someone as remarkable as you.
 
@@ -239,7 +239,7 @@ As we welcome 2026, here are my special wishes for you:
 • Personal Growth: May you discover hidden talents, overcome any obstacles with grace, and develop the wisdom to make choices that bring you happiness
 • Dreams & Adventures: May you embark on journeys that broaden your horizons, achieve goals that once seemed impossible, and create stories worth telling
 
-Here's to a year filled with magic, wonder, and all the beautiful surprises life has to offer! With warm wishes, Madhav`
+Here's to a year filled with magic, wonder, and all the beautiful surprises life has to offer! With warm wishes, Abhilasha`
   ];
 
   const randomMeaning = fallbackMeanings[Math.floor(Math.random() * fallbackMeanings.length)];

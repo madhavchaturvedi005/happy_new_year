@@ -41,7 +41,7 @@ const NameInput = ({ onSubmit, isLoading = false }: NameInputProps) => {
         transition={{ delay: 0.8 }}
         className="text-lg md:text-xl text-muted-foreground max-w-md mx-auto"
       >
-        Enter your name and optionally add your photo to receive personalized wishes with your name's special meaning from Madhav
+        Enter your name and optionally add your photo to receive personalized wishes with your name's special meaning from Abhilasha
       </motion.p>
 
       <motion.form
@@ -93,7 +93,7 @@ const NameInput = ({ onSubmit, isLoading = false }: NameInputProps) => {
         transition={{ delay: 1.2 }}
         className="text-sm text-muted-foreground"
       >
-        From Madhav with ❤️
+        From Abhilasha with ❤️
       </motion.p>
     </motion.div>
   );
